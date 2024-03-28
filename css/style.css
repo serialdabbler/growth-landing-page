@@ -194,8 +194,21 @@ img {
   width: 75%;
 }
 
-.hero-buttons {
+.hero .hero-buttons {
   margin-top: 40px;
+}
+
+.hero .hero-buttons .btn-primary {
+  padding: 1rem 2rem;
+  margin-right: 16px;
+}
+
+.hero .hero-buttons .btn-secondary {
+  padding: 1rem 2rem;
+}
+
+.hero .hero-buttons .btn-secondary > i {
+  margin-right: 10px;
 }
 
 /* ----- video section ----- */
