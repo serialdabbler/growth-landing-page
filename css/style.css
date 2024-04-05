@@ -811,7 +811,6 @@ footer .copyright p {
 
   .hero .hero-content .hero-heading {
     font-size: 2.35rem;
-    color: greenyellow;
   }
 
   .hero .hero-content .hero-text {
@@ -861,7 +860,6 @@ footer .copyright p {
 
   .pricing h2 {
     font-size: 2.35rem;
-    color: red;
     margin-bottom: 18px;
   }
 
@@ -901,6 +899,11 @@ footer .copyright p {
 
   footer .footer-grid .newsletter-card p {
     margin-bottom: 24px;
+  }
+
+  footer .footer-grid .newsletter-card form {
+    display: flex;
+    flex-direction: column;
   }
 
   footer .footer-grid .newsletter-card input[type="email"] {
