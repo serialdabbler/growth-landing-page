@@ -769,6 +769,17 @@ footer .copyright p {
 }
 
 /* ----- MEDIA QUERIES ----- */
+@media (max-width: 1198px) {
+  footer .footer-grid .newsletter-card form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .footer-grid .newsletter-card input[type="email"] {
+    margin: 0 0 20px;
+  }
+}
+
 @media (max-width: 1024px) {
   .testimonials .testimonials-heading {
     padding-left: 1rem;
@@ -780,15 +791,6 @@ footer .copyright p {
     width: 99%;
     padding: 0 1rem;
     margin: 0 auto;
-  }
-
-  footer .footer-grid .newsletter-card form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer .footer-grid .newsletter-card input[type="email"] {
-    margin: 0 0 20px;
   }
 }
 
