@@ -524,8 +524,7 @@ img {
 
 .faq .faq-content .faq-group {
   border-bottom: 1px solid var(--pricing-divider-light);
-  /* change via JS */
-  padding-bottom: 48px;
+  padding-bottom: 24px;
   margin-bottom: 24px;
 }
 
@@ -544,7 +543,6 @@ img {
   line-height: 150%;
   letter-spacing: -1px;
   color: var(--color-dark);
-  /* change via JS */
   margin-bottom: 16px;
 }
 
@@ -734,7 +732,7 @@ footer .copyright p {
 
 .mobile-menu-links ul {
   padding: 2rem;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .mobile-menu-links ul li {
